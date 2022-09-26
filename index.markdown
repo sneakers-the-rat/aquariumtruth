@@ -18,6 +18,8 @@ without people (human) for profit the fish at the aquarium would drown. **who is
 
 ![satellite image over aquarium, showing how people are tricked into the sea when they go into the tunnel. there are also suspicious markings about how people are in fact turned into fish](/aquariumtruth/assets/img/sat.png)
 
+![if only you were a seal](/aquariumtruth/assets/img/if_you_were_a_seal.jpg)
+
 - introduction to the aquarium 
 	- tunnel and history
 	- diagram of tunnel forking and going into the ocean
