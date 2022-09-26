@@ -8,9 +8,16 @@ title: aquarium Truth now!
 
 {%- include fish.html -%}
 
-aquarium at oregon coast is run by fish for fish (not for people)!!!
+How come we go our whole lives not knowing anything about fish and then all of the sudden the aquarium wants us to know everything about fish?
+
+<span class="emphasized">What do they get out of it?<br> </span> Well Just <span class="emphasized extra">Follow The Money.....</span>
+
+... that comes out of the <span style="font-style:  italic;">tube!</span>
 
 ![picture of undersea tunnel at aquarium showing how there is a whole office underneath the tunnel with an desk and files and who knnows what else](/aquariumtruth/assets/img/shark_cam.png)
+
+What kind of fish needs a chair? only an <span style="font-style: italic;">executive. </span>
+
 
 without people (human) for profit the fish at the aquarium would drown. **who is selling the tickets, fish or man?**
 

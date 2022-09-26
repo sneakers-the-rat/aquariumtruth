@@ -133,12 +133,27 @@ The `sprites` mixin generates identical output to the CSS template
 
 @keyframes rotatingAnimation {
   0%{
-    transform: translate3d(0,0,0px) rotateY(0deg);
+    transform: translate3d(0,0,1000px) rotateY(0deg) scale3d(2,2,2);
+  }
+  50% {
+    transform: translate3d(0,0,0px) rotateY(180deg) scale3d(1,1,1);
   }
   100% {
-    transform: translate3d(0,0,0px) rotateY(360deg);
+    transform: translate3d(0,0px,-1000px) rotateY(360deg) scale3d(2,2,2);
   }
 }
+
+// @keyframes zoomingAnimation {
+//   0% {
+//     perspective: 500px
+//   }
+//   50% {
+//     perspective: 1000px
+//   }
+//   100% {
+//     perspective: 500px
+//   }
+// }
 
 $fishSize:0.5;
 @keyframes swimmingAnimation {
@@ -165,8 +180,8 @@ $fishSize:0.5;
   100% { transform: translate(0px, -12px); }
 }
 @keyframes fish-roll {
-  0%   { transform: rotateX(-10deg); }
-  100% { transform: rotateX(10deg); }
+  0%   { transform: rotateX(-50deg); }
+  100% { transform: rotateX(50deg); }
 }
 
 /*
@@ -175,7 +190,8 @@ $fishSize:0.5;
 
 .fish-wrapper{
   transform-style: preserve-3d;
-  animation: rotatingAnimation 10000ms infinite linear;
+  perspective-origin: bottom left;
+  animation: rotatingAnimation 10000ms infinite linear, zoomingAnimation 10000ms infinite linear;
 }
 .fish-container{
   position: absolute;
@@ -183,7 +199,7 @@ $fishSize:0.5;
   left: 50%;
   top: 50%;
 
-  perspective: 10000px;
+  perspective: 1000px;
   transform-style: preserve-3d;
 
   .fish-body{
@@ -210,7 +226,7 @@ $fishSize:0.5;
   }
   .fish-back-bottom-fin{
     @include sprite($fish-back-bottom-fin);
-    left: -106px;
+    left: -156px;
     top: 61px;
     &.front{
       z-index: 300;
@@ -225,7 +241,7 @@ $fishSize:0.5;
   }
   .fish-back-fin{
     @include sprite($fish-back-fin);
-    left: -320px;
+    left: -400px;
     top: -91px;
     background-position: 0% 0;
     transform-origin: 105% 0;
