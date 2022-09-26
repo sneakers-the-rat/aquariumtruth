@@ -10,13 +10,13 @@ title: aquarium Truth now!
 
 aquarium at oregon coast is run by fish for fish (not for people)!!!
 
-![picture of undersea tunnel at aquarium showing how there is a whole office underneath the tunnel with an desk and files and who knnows what else](/assets/img/shark_cam.png)
+![picture of undersea tunnel at aquarium showing how there is a whole office underneath the tunnel with an desk and files and who knnows what else](/aquariumtruth/assets/img/shark_cam.png)
 
 without people (human) for profit the fish at the aquarium would drown. **who is selling the tickets, fish or man?**
 
-![picture of installing the tunnel showing how there are in fact two tunnels next to each other](/assets/img/tunnel_install_2.png)
+![picture of installing the tunnel showing how there are in fact two tunnels next to each other](/aquariumtruth/assets/img/tunnel_install_2.png)
 
-![satellite image over aquarium, showing how people are tricked into the sea when they go into the tunnel. there are also suspicious markings about how people are in fact turned into fish](/assets/img/sat.png)
+![satellite image over aquarium, showing how people are tricked into the sea when they go into the tunnel. there are also suspicious markings about how people are in fact turned into fish](/aquariumtruth/assets/img/sat.png)
 
 - introduction to the aquarium 
 	- tunnel and history
